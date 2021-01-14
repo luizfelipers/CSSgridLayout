@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+.grid{
+    display: block;
+    padding: 16px;
+
+    @media (min-width:768px){
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(2, 1fr) ; //Fracionamento da grade
+    }
+
+
+    .col{
+        background-color: pink;
+        margin-bottom: 16px;
+        padding: 16px;
+    }
+}
