@@ -6,8 +6,37 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: #1e1e1e;
+}
+
+h1, h2 {
+  text-align: center;
+  font-weight: 600;
+  color: yellowgreen;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
+  padding: 10px;
+}
+
+h1 {
+  font-style: italic;
+  cursor: pointer;
+  color: greenyellow;
+  font-size: 70px;
+  text-shadow: 5px 5px 20px black;
+}
+
+li {
+  padding: 20px;
+  font-style: italic;
+  font-size: 30px;
+  color: honeydew;
+  text-shadow: 2px 2px black;
+}
+
 .grid {
-  padding: 16px;
+  padding: 30px;
   display: -ms-grid;
   display: grid;
   grid-gap: 16px;
@@ -53,7 +82,7 @@
 }
 
 .grid2 {
-  padding: 16px;
+  padding: 30px;
   display: -ms-grid;
   display: grid;
   grid-gap: 16px;
@@ -99,7 +128,7 @@
 }
 
 .grid3 {
-  padding: 16px;
+  padding: 30px;
   display: -ms-grid;
   display: grid;
   grid-gap: 16px;
